@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-    border: 2px solid rgb(204, 204, 248);
+    /* border: 2px solid rgb(204, 204, 248); */
     border-radius: 10px;
    
 }
@@ -87,6 +87,7 @@ h2 {
 
 .herop button {
     margin-left: -380px;
+    margin-top: 30px;
 }
 .herop button:hover {
      background-color: lightblue;
