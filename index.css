@@ -88,6 +88,7 @@ h2 {
 .herop button {
     margin-left: -380px;
     margin-top: 30px;
+    height: 50px;
 }
 .herop button:hover {
      background-color: lightblue;
@@ -100,6 +101,7 @@ h2 {
     background-color: rgb(57, 202, 28);
     color: white;
     /* margin-right: +230px; */
+    box-shadow: 5px 5px 8px red;
 }
 
 .image {
