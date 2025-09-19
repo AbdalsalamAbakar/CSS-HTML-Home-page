@@ -29,10 +29,11 @@ body {
 
 .logo span {
     color: rgb(219, 214, 211);
+    transition-duration: 1s;
 }
 .logo span:hover {
-       background-color: lightblue;
-      color: rgb(4, 109, 196);
+       background-color: none;
+      color: rgb(4, 40, 70);
 }
 
 .nav-bar ul {
@@ -53,11 +54,12 @@ body {
     font-size: 24px;
     font-weight: 800px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition-duration: 1s;
    
 }
 .nav-bar ul li a:hover{
-     background-color: lightblue;
-      color: rgb(4, 109, 196);
+     background-color: none;
+      color: rgb(5, 58, 102);
 }
 
 .hero {
@@ -89,10 +91,11 @@ h2 {
     margin-left: -380px;
     margin-top: 30px;
     height: 50px;
+    transition-duration: 1s;
 }
 .herop button:hover {
-     background-color: lightblue;
-      color: rgb(6, 80, 240);
+     background-color: none;
+      color: rgb(8, 51, 143);
 }
 
 .herop button {
@@ -128,10 +131,11 @@ h2 {
     color: antiquewhite;
     border: 1px solid rgb(117, 116, 113);
     border-radius: 10px;
+    transition-duration: 1s;
 }
 #btn1:hover{
-       background-color: lightblue;
-      color: rgb(4, 109, 196);
+       background-color: none;
+      color: rgb(2, 54, 97);
 }
 .animation {
     /* width: 600px;
