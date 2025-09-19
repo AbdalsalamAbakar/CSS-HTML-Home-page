@@ -1,0 +1,13 @@
+home
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch abakar
+# Your branch is ahead of 'origin/abakar' by 1 commit.
+#   (use "git push" to publish your local commits)
+#
+# Changes to be committed:
+#	renamed:    home page /home.html -> home page /index.html
+#	renamed:    challenge.html -> index.html
+#	deleted:    script.js
+#
