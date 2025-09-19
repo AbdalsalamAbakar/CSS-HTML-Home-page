@@ -1,10 +1,15 @@
 body {
     background-color: black;
+    
+}
+*{
+    box-sizing: border-box;
 }
 
 .container {
     border: 2px solid rgb(204, 204, 248);
     border-radius: 10px;
+   
 }
 
 .nav-bar {
@@ -25,6 +30,10 @@ body {
 .logo span {
     color: rgb(219, 214, 211);
 }
+.logo span:hover {
+       background-color: lightblue;
+      color: rgb(4, 109, 196);
+}
 
 .nav-bar ul {
     display: flex;
@@ -44,18 +53,22 @@ body {
     font-size: 24px;
     font-weight: 800px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+.nav-bar ul li a:hover{
+     background-color: lightblue;
+      color: rgb(4, 109, 196);
 }
 
 .hero {
-    height: 100vh;
-    width: 100vw;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    padding: 60px 90px;
+    /* align-content: center; */
 }
 
 .herop {
-    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -63,15 +76,21 @@ body {
 
 h2 {
     color: white;
+    margin-left: -160px;
 }
 
 .herop p {
     width: 50%;
     color: white;
+    margin-left: -200px;
 }
 
 .herop button {
-    margin-left: -220px;
+    margin-left: -380px;
+}
+.herop button:hover {
+     background-color: lightblue;
+      color: rgb(6, 80, 240);
 }
 
 .herop button {
@@ -89,15 +108,13 @@ h2 {
 .image img {
     width: 320px;
     height: 320px;
-    border: 10px solid green;
     border-radius: 50%;
-    box-shadow: 5px 5px 10px blue;
 }
 
 .btn {
     display: flex;
     gap: 30px;
-    margin: 40px 220px;
+    margin: 40px 180px;
 }
 
 #btn1 {
@@ -108,7 +125,10 @@ h2 {
     border: 1px solid rgb(117, 116, 113);
     border-radius: 10px;
 }
-
+#btn1:hover{
+       background-color: lightblue;
+      color: rgb(4, 109, 196);
+}
 .animation {
     /* width: 600px;
     height: 50px; */
@@ -141,6 +161,6 @@ h2 {
 }
 h3 {
     color: white;
-    margin-left: 220px;
-    position: absolute;
+    margin-left: +185px;
+    
 }
